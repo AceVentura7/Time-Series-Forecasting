@@ -9,19 +9,8 @@ A time series analysis encompasses statistical methods for analyzing time series
 Applications of time series are used in statistics, finance or business applications. A very common example of time series data is the daily closing value of the stock index like NASDAQ or Dow Jones. Other common applications of time series are sales and demand forecasting, weather forecasting, econometrics, signal processing, pattern recognition and earthquake prediction.
 
 
-**Components of a Time-Series**
+**Notebook 1 contains the Theory behind Time Series forcasting and the general know how.**
 
+**Notebook 2 contains an ARIMA and AUTO ARIMA model for forecasting Flight Passenger Time Series Data**
 
-**Trend** - The trend shows a general direction of the time series data over a long period of time. A trend can be increasing(upward), decreasing(downward), or horizontal(stationary).
-
-**Seasonality** - The seasonality component exhibits a trend that repeats with respect to timing, direction, and magnitude. Some examples include an increase in water consumption in summer due to hot weather conditions.
-
-**Cyclical Component** - These are the trends with no set repetition over a particular period of time. A cycle refers to the period of ups and downs, booms and slums of a time series, mostly observed in business cycles. These cycles do not exhibit a seasonal variation but generally occur over a time period of 3 to 12 years depending on the nature of the time series.
-
-**Irregular Variatio**n - These are the fluctuations in the time series data which become evident when trend and cyclical variations are removed. These variations are unpredictable, erratic, and may or may not be random.
-
-**ETS Decomposition** - ETS Decomposition is used to separate different components of a time series. The term ETS stands for Error, Trend and Seasonality.
-
-
-
-**Time Series forecasting done on Airline data. ARIMA and SARIMA created on Airline and Drug Data**
+**Notebook 2 also contains a SARIMA and SARIMAX model for forecasting Drug Company Data** 
